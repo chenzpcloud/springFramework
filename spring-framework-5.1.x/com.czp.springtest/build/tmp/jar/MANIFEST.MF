@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: com.czp.springtest
+Automatic-Module-Name: com.czp.springtest
+Implementation-Version: 5.1.9.BUILD-SNAPSHOT
+Created-By: 1.8.0_181 (Oracle Corporation)
+

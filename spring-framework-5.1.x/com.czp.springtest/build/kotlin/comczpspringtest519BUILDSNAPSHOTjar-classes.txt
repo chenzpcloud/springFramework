@@ -1,0 +1,1 @@
+D:\companyProject\workSpacce\mySpring\spring-framework-5.1.x\spring-framework-5.1.x\com.czp.springtest\build\classes\java\main\com\czp\bean\BeanTest.class;D:\companyProject\workSpacce\mySpring\spring-framework-5.1.x\spring-framework-5.1.x\com.czp.springtest\build\classes\java\main\com\czp\bean\OurBeanTest.class

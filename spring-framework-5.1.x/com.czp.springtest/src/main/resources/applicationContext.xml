@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="ourbeanTest" class="com.czp.bean.OurBeanTest">
+		<property name="names" value="kobe" />
+		<property name="age" value="32" />
+	</bean>
+
+
+	<bean id="postTest" class="com.czp.bean.PostTest"></bean>
+
+	<bean id="beanPostTest" class="com.czp.bean.BeanPostTest"></bean>
+	<bean id="payEntity" class="com.czp.bean.PayEntity"></bean>
+
+
+
+	<bean id="jamesTest" class="com.czp.bean.JamesTest"></bean>
+
+
+	<bean id="helloFactoryBean" class="com.czp.bean.HelloFactoryBean"></bean>
+
+	<bean id="news" class="com.czp.bean.News" scope="prototype"></bean>
+
+	<bean id="newProvider" class="com.czp.bean.NewProvider">
+		<property name="news" ref="news"></property>
+	</bean>
+</beans>
